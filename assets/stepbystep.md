@@ -30,7 +30,7 @@ oc get route openshift-gitops-server  -n openshift-gitops -o jsonpath='{.spec.ho
 ### 2. Deploying the ACM Lab Resources
 
 ```
-oc apply -k https://github.com/ocp-tigers/acm-lab-deploy/acm-lab-deploy/config/overlays/default
+oc apply -k https://github.com/manuvaldi/acm-lab-deploy/acm-lab-deploy/config/overlays/default
 ```
 
 This step will deploy the following resources for the demo:
@@ -126,7 +126,7 @@ Select Mode Default or Full, depending on the resources:
 #### 7.1 Select Mode Default (only RHACM)
 
 ```
-oc apply -k https://github.com/ocp-tigers/acm-lab-deploy/acm-lab-config/config/overlays/default
+oc apply -k https://github.com/manuvaldi/acm-lab-deploy/acm-lab-config/config/overlays/default
 ```
 
 This step will deploy the following resources for the demo:
@@ -136,7 +136,7 @@ This step will deploy the following resources for the demo:
 #### 7.2 Select Mode Full
 
 ```
-oc apply -k https://github.com/ocp-tigers/acm-lab-deploy/acm-lab-config/config/overlays/full
+oc apply -k https://github.com/manuvaldi/acm-lab-deploy/acm-lab-config/config/overlays/full
 ```
 
 This step will deploy the following resources for the demo:

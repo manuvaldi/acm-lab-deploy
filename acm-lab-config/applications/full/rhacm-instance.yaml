@@ -9,7 +9,7 @@ spec:
   project: acm-lab-config
   source:
     path: manifests/rhacm-instance/overlays/basic
-    repoURL: https://github.com/ocp-tigers/acm-lab-deploy
+    repoURL: https://github.com/manuvaldi/acm-lab-deploy
     targetRevision: master
   syncPolicy:
     automated:
@@ -22,5 +22,5 @@ spec:
         server: https://kubernetes.default.svc
       source:
         path: manifests/rhacm-instance/overlays/basic
-        repoURL: https://github.com/ocp-tigers/acm-lab-deploy
+        repoURL: https://github.com/manuvaldi/acm-lab-deploy
         targetRevision: master
