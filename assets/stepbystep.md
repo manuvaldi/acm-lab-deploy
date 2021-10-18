@@ -24,7 +24,7 @@ This step will deploy the following resources for the demo:
 To get your argocd route (where you can login)
 
 ```
-oc get route argocd-server -n argocd -o jsonpath='{.spec.host}{"\n"}'
+oc get route openshift-gitops-server  -n openshift-gitops -o jsonpath='{.spec.host}{"\n"}'
 ```
 
 ### 2. Deploying the ACM Lab Resources
