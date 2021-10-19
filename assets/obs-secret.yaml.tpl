@@ -9,6 +9,6 @@ stringData:
     config:
       bucket: ${S3_BUCKET}
       endpoint: ${S3_ENDPOINT}
-      insecure: true
+      insecure: false
       access_key: ${AWS_ACCESS_KEY}
       secret_key: ${AWS_SECRET_KEY}
